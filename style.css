@@ -1,0 +1,165 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    background-color: #FFE459;
+}
+* {box-sizing: border-box}
+.navbar {
+    width: 100%;
+    background-color: #3D087B;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+    
+  }
+  
+  .navbar a:hover {
+    background-color: #F43B86;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+  }
+  
+  .head{
+      margin: auto;
+      text-align: center;
+     margin-top: 5%;
+  }
+  .head-istriangle{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   border:10px solid #3D087B;
+   width: 35%;
+   text-align: left;
+   padding: 10px;
+   font-size: 20px;
+  }
+  .head-hypo{
+    margin: auto;
+    text-align: center;
+   border:10px solid #3D087B;
+   width: 35%;
+   text-align: left;
+   padding: 10px;
+   font-size: 20px;
+  }
+  .area{
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+   border:10px solid #3D087B;
+   width: 35%;
+   text-align: left;
+   padding: 10px;
+   font-size: 20px;
+  }
+  #area-head{
+      text-align: center;
+      font-size: 25px;
+      border: 2px solid #3D087B;
+      width: 45%;
+      padding: 10px;
+      margin:auto;
+  }
+  .base-height{
+      width: 60%;
+  }
+  h1{
+      text-align: center;
+  }
+  .angle-input{
+      width: 60%;
+  }
+  .quiz-form{
+      margin: auto;
+      text-align: center;
+      border:10px solid #3D087B;
+      width: 35%;
+      text-align: left;
+      padding: 30px;
+  }
+  #hypo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 1%;
+  }
+  #area-btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 1%;
+  }
+  #is-triangle-btn{
+      text-align: center;
+      margin: auto;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1%;
+  }
+  #submit-ans-btn, #is-triangle-btn, #hypo, #area-btn{
+      margin-top: 20px;
+      height: 30px;
+      background-color: #F6A9A9;
+  }
+  #submit-ans-btn:hover, #is-triangle-btn:hover, #hypo:hover, #area-btn:hover{
+      background-color: #F43B86;
+  }
+  /* #output{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    border:1px solid #B97A95;
+    width: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #F6AE99,#B97A95);
+    border-radius: 5px;
+  } */
+  .ques-container{
+      font-size: 20px;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .quiz-form{
+      width: 80%;
+   }
+   .head-istriangle{
+      width: 80%;
+   }
+   .area{
+    width: 80%;
+   }
+   #area-head{
+     width: 80%;
+   }
+   .head-hypo{
+    width: 80%;
+   }
+   #output{
+     width: 50%;
+   }
+}
