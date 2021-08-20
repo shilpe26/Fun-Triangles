@@ -104,19 +104,18 @@ body{
     justify-content: center;
     margin-top: 1%;
   }
-  #is-triangle-btn{
+  #is-triangle-btn,#submit-ans-btn, #hypo, #area-btn{
+    padding: 10px 40px;
       text-align: center;
       margin: auto;
-      align-items: center;
       display: flex;
       flex-direction: column;
-      margin-top: 1%;
+      cursor: pointer;
+      border: 2px solid #F43B86;
+      border-radius: 3px;
+      margin-top: 1rem;
   }
-  #submit-ans-btn, #is-triangle-btn, #hypo, #area-btn{
-      margin-top: 20px;
-      height: 30px;
-      background-color: #F6A9A9;
-  }
+  
   #submit-ans-btn:hover, #is-triangle-btn:hover, #hypo:hover, #area-btn:hover{
       background-color: #F43B86;
   }

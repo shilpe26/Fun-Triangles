@@ -9,10 +9,14 @@ function calculateSumOfSquares(a,b){
 }
 
 function calculateHypo(){
+    if(sides[0].value === '' ||sides[1].value === ''){
+    outputE1.innerText= "Please enter both the sides !";
+    }else{
     const sumOfSqures = calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
     const lenthOfHypo = Math.sqrt(sumOfSqures);
     // console.log(lenthOfHypo);
-    outputE1.innerText= "The len of hypotenus is " + lenthOfHypo;
+    outputE1.innerText= "The len of hypotenus is " + lenthOfHypo + " cm.";
+    }
     document.querySelector('#output').style.cssText = ` margin: auto;
     text-align: center;
     border:1px solid #B97A95;
